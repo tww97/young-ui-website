@@ -1,24 +1,29 @@
-# pixel-ui
+# young-ui
 
-## Project setup
-```
-npm install
-```
+## 安装
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+打开终端运行下列命令：
+~~~js
+npm install young-ui
+~~~
+## 开始使用
 
-### Compiles and minifies for production
-```
-npm run build
-```
+请先安装本组件库
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 引入YOUNG-UI
+代码示例：
+~~~html
+<template>
+    <div>
+        <y-button></y-button>
+    </div>
+</template>
+<script>
+import {Button} from 'young-ui'
+export default {
+    components: {
+        'y-button': Button
+    }
+}
+</script>
+~~~
