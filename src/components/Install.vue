@@ -2,7 +2,6 @@
     <div>
         <h1>安装</h1>
         <p class="p-install">打开终端运行下列命令：</p>
-        <!-- <code>npm install young-ui</code> -->
                  <div class='code-start'>
                     <pre><code v-html="prism.highlight(code1, prism.languages.html, 'html')">
                         

@@ -18,14 +18,10 @@
     </div>
 </template>
 <script>
-// import DemoBlock from './DemoBlock.vue'
 import 'prismjs'
 const prism = window.Prism
 import 'prismjs/themes/prism.css'
 export default {
-    components: {
-        // 'demo-block': DemoBlock
-    },
     data(){
         return {
             code1:"<template>\n    <div>\n        <y-button></y-button>\n    </div>\n</template>\n<script>\nimport {Button} from 'young-ui'\nexport default {\n    components: {\n        'y-button': Button\n    }\n}\n</"+"script>",
@@ -36,11 +32,7 @@ export default {
 </script>
 <style lang="scss">
 .code-start{
-    // font-size: 12px;
-    // height: 200px;
-    // background: #282c34;
     padding: 20px;
-    // margin: 10px;
     border:1px solid #ebebeb;
     background-color: #CCE8CF;
 }

@@ -26,18 +26,12 @@ export default {
 </script>
 <style lang="scss">
 .title{
-    // margin-top: 55px;
-    // margin-bottom: 20px;
     padding: 55px 0 20px 0px;
 }
 .demo-block{
     border: 1px solid #ebebeb;
     border-radius: 3px;
-    // width: 868px;
-    // height: 599px;
     >.source{
-        // display: flex;
-        // justify-content: flex-start;
         padding: 20px;
         margin: 10px;
         border-bottom: 1px solid #ebebeb;
@@ -55,9 +49,6 @@ export default {
             }
         }
         >.code{
-            // font-size: 12px;
-            // height: 200px;
-            // background: #282c34;
             padding: 20px;
             margin: 10px;
             border:1px solid #ebebeb;

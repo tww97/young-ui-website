@@ -39,10 +39,8 @@
       }
     },
     created() {
-      // console.log(this.edit)
-        // this.eventBus.$emit('editable', 1)
         this.eventBus.$on('deleteName', name => {
-            // console.log('deleteName', name)
+
             let len = this.nameList.length, activeName
             if(this.nameList.indexOf(name) === len-1){
                 if(len-2 >= 0){
@@ -57,7 +55,7 @@
             this.nameList = this.nameList.filter(val => {
                 return val !== name 
             })
-            // console.log('delete',this.nameList)
+
             this.eventBus.$emit('updateSelected', activeName)
         })
     },
@@ -103,7 +101,7 @@
                     return childVm.show
                 })
                 this.nameList = nodeList.map(node => node.name)
-                // console.log(this.nameList)                
+              
             }
         })
         this.eventBus.$emit('updateSelected', this.nameList[this.nameList.length-1])

@@ -83,15 +83,5 @@ $h2: $h - 4px;
   &[disabled]{
       cursor: not-allowed;
   }
-//   &:active {
-//     > span { width: $h2 + 4px; }
-//   }
-//   &.young-checked:active {
-//     > span {
-//              width: $h2 + 4px; 
-//              margin-left: -4px; 
-//             }
-//   }
-//加上动画会有一定的卡顿，后期考虑是否加上动画
 }
 </style>

@@ -118,7 +118,6 @@
     </div>
 </template>
 <script>
-// import Toast from '../lib/Toast.vue'
 import Button from '../lib/Button.vue'
 import DemoBlock from './DemoBlock'
 import 'prismjs'
@@ -126,7 +125,6 @@ const prism = window.Prism
 import 'prismjs/themes/prism.css'
 export default {
     components: {
-        // 'y-toast': Toast,
         'y-button': Button,
         'demo-block': DemoBlock
     },
@@ -139,9 +137,6 @@ export default {
             code4:"<y-button @click='$toast('z-index太小可能会被其它元素遮挡', {position: 'middle', autoClose: false})'\n  level='main' circle>\n    Toast被遮挡\n</y-button>\n<y-button @click='$toast('可以手动设置z-index的值', \n  {position:'middle', autoClose: false, zIndex: 200})' level='main' circle>\n    Toast显示正常\n</y-button>",
             code5:"<y-button @click='$toast('<strong>strong标签不会生效</strong>', \n  {position: 'middle', autoClose: false})' level='main' circle>\n    标签不会生效\n</y-button>\n<y-button @click='$toast('<strong>strong标签生效了</strong>', \n  {position:'middle', autoClose: false, enableHtml: true})' level='main' circle>\n    标签生效\n</y-button>"
         }
-    },
-    beforeCreate(){
-        // console.log(this.$toast)
     },
     methods: {
         cb: function(){
@@ -161,7 +156,6 @@ export default {
             position: relative;
             display: inline-block;
             padding: 10px 20px;
-            // margin-bottom: 10px;
             border: 1px solid #5e6d82;
             background: white;
             z-index: 100;

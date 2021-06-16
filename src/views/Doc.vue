@@ -116,7 +116,6 @@
                         }
                     }
                     .router-link-active{
-                        // background-color: white;
                         color: #28d1c9;
                         border-left: 4px solid #28d1c9;
                         text-decoration: none;
@@ -138,93 +137,4 @@
         }
     }
 }
-// @media(max-width: 500px){
-//     main{
-//         padding-left: 0;
-//     }
-//     .content{
-//         padding-top: 0;
-//     }
-    
-// }
-// .layout {
-// // display: flex;
-// // flex-direction: column;
-// height: 100vh;
-// position: relative;
-// > .nav {
-//     // flex-shrink: 0;
-//     position: fixed;
-// }
-// > .content {
-//     // flex-grow: 1;
-//     // padding-top: 60px;
-//     // padding-left: 156px;
-//     @media (max-width: 500px) {
-//     padding-left: 0; 
-//     }
-// }
-// }
-// .content {
-//     // border: 1px solid;
-// display: flex;
-// position: relative;
-// > aside {
-//     // position: fixed;
-//     border: 1px solid;
-//     background: white;
-//     margin-top: 68px;
-//     flex-shrink: 0;
-//     // z-index: 40;
-//     // @media(max-width: 500px){
-//     //     display: none;
-//     // }
-// }
-// >main{
-//     // position: relative;
-// > .main {
-//     border: 1px solid;
-//     flex-grow: 1;
-//     // padding: 16px;
-//     background: white;
-//     max-width: 870px;
-//     padding: 68px auto 0 auto;
-// }
-// }
-
-// }
-// aside {
-// // background: lightblue;
-// width: 150px;
-// padding: 16px 0;
-// position: fixed;
-// // top: 0;
-// // left: 0;
-// padding-top: 70px;
-// height: 100%;
-// > h2 {
-//     margin-bottom: 4px;
-//     padding: 0 16px;
-// }
-// > ol {
-//     > li {
-//         >a{
-//             display: block;
-//             // text-decoration: underline;
-//             padding: 4px 16px;
-//             &:hover{
-//                 text-decoration: none;
-//             }
-//         }
-//         .router-link-active{
-//             background-color: white;
-//             text-decoration: none;
-//         }
-//     }
-// }
-// }
-// main {
-// overflow: auto;
-// }
-
 </style>

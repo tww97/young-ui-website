@@ -83,7 +83,6 @@ export default {
 </script>
 <style lang="scss">
 $radius: 4px;
-// $border-color: #d9d9d9;
 .young-dialog {
   background: white;
   border-radius: $radius;
@@ -109,7 +108,6 @@ $radius: 4px;
   }
   >header {
     padding: 20px 20px 10px;
-    // border-bottom: 1px solid $border-color;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,22 +117,15 @@ $radius: 4px;
     padding: 30px 20px;
   }
   >footer {
-    // border-top: 1px solid $border-color;
     padding: 10px 20px 20px;
     text-align: right;
-    // display: inline-flex;
-    // justify-content: flex-end;
-    // align-items: jusitify-content;
     >div{
         display: inline-block;
         margin-left: 10px;
-        // align-items: jusitify-content;
-        // margin-left: 10px;
     }
   }
   &-header {
     position: relative;
-    // min-height: 20px;
     >.young-dialog-close{
         position: absolute;
         right: 20px;

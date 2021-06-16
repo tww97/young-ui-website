@@ -86,21 +86,12 @@ export default{
             code3: '<y-switch disabled></y-switch>\n<y-switch\n  active=true\n  disabled>\n</y-switch>'
         }
     },
-    mounted(){
-        // console.log('prism',prism)
-    }
 }
 </script>
 <style lang="scss">
-// h1{
-//     padding-left: 10px;
-// }
 .y-switch{
-    // font-size: 14px;
     .text{
         color: #5e6d82;
-        // color: #cce8cf;
-        // background-color: #e6effb;
         margin: 0 4px;
         display: inline-block;
         padding: 1px 5px;

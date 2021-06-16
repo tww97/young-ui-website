@@ -32,79 +32,9 @@
                 </div>
             </template>
         </demo-block>
-        <!-- <demo-block>
-            <h3>选项卡样式</h3>
-            <template v-slot:source>
-                <y-tabs :selected="selected">
-                    <y-tabs-head>
-                        <y-tabs-item name='0'>周一</y-tabs-item>
-                        <y-tabs-item name='1'>周二</y-tabs-item>
-                        <y-tabs-item name='2'>周三</y-tabs-item>
-                        <y-tabs-item name='3'>周四</y-tabs-item>
-                    </y-tabs-head>
-                    <y-tabs-body>
-                        <y-tabs-pane name='0'>语文</y-tabs-pane>
-                        <y-tabs-pane name='1'>数学</y-tabs-pane>
-                        <y-tabs-pane name='2'>英语</y-tabs-pane>
-                        <y-tabs-pane name='3'>物理</y-tabs-pane>
-                    </y-tabs-body>
-                </y-tabs>
-            </template>
-            <template v-slot:description>
-                <div>
-                    绑定<span>v-model</span>到一个<span>Boolean</span>类型的变量。可以使用active-color属性与inactive-color属性来设置开关的背景色。
-                </div>
-            </template>
-            <template v-slot:code>
-                <div>
-                    <pre><code>&lt;y-switch&gt;
-&lt;/y-switch&gt;
-&lt;y-switch
-  active=true&gt;
-&lt;/y-switch&gt;
-</code></pre>
-                </div>
-            </template>
-        </demo-block>
-        <demo-block>
-            <h3>卡片化</h3>
-            <template v-slot:source>      
-                <y-tabs :selected="selected">
-                    <y-tabs-head>
-                        <y-tabs-item name='0'>周一</y-tabs-item>
-                        <y-tabs-item name='1'>周二</y-tabs-item>
-                        <y-tabs-item name='2'>周三</y-tabs-item>
-                        <y-tabs-item name='3'>周四</y-tabs-item>
-                    </y-tabs-head>
-                    <y-tabs-body>
-                        <y-tabs-pane name='0'>语文</y-tabs-pane>
-                        <y-tabs-pane name='1'>数学</y-tabs-pane>
-                        <y-tabs-pane name='2'>英语</y-tabs-pane>
-                        <y-tabs-pane name='3'>物理</y-tabs-pane>
-                    </y-tabs-body>
-                </y-tabs>
-            </template>
-            <template v-slot:description>
-                <div>
-                    绑定<span>v-model</span>到一个<span>Boolean</span>类型的变量。可以使用active-color属性与inactive-color属性来设置开关的背景色。
-                </div>
-            </template>
-            <template v-slot:code>
-                <div>
-                    <pre><code>&lt;y-switch&gt;
-&lt;/y-switch&gt;
-&lt;y-switch
-  active=true&gt;
-&lt;/y-switch&gt;
-</code></pre>
-                </div>
-            </template>
-        </demo-block> -->
         <demo-block>
             <h3>禁用状态</h3>
             <template v-slot:source>
-                <!-- <div class="tab-button">
-                </div>        -->
                 <y-tabs :selected="selected2">
                     <y-tabs-head>
                         <y-tabs-item name='0' disabled>周一（禁用）</y-tabs-item>
@@ -266,7 +196,6 @@ export default {
     },
     data() {
       return {
-        // editableTabsValue: '2',
         editableTabs1: [{
           title: 'Tab 1',
           name: '1',

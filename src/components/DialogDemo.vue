@@ -213,17 +213,6 @@ export default {
             border: 1px solid #409eff;
         }
     }
-    // .text-code{
-    //     color: #5e6d82;
-    //     // background-color: #e6effb;
-    //     margin: 0 4px;
-    //     display: inline-block;
-    //     padding: 1px 5px;
-    //     font-size: 14px;
-    //     border-radius: 3px;
-    //     height: 18px;
-    //     line-height: 18px;
-    // }
     .content-text{
         display: block;
         padding: 15px 0;
