@@ -1,0 +1,42 @@
+
+// @font-face {
+//   font-family: 'bb1442';
+//   src: url(../font/bb1442.ttf);
+// }
+[class^='young-'], [class*=' young-'] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    // 为什么这样写 font-family
+    // 答案见 https://github.com/zenozeng/fonts.css/
+    color: #1d2c40;
+    font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica,
+      "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB",
+      "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN",
+      "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
+      SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  }
+// @media(min-width: 870px){
+//   .demo-block{
+//     width: 870px;
+//     margin: 0 auto;
+//   }
+//   .title{
+//     width: 740px;
+//     margin: 0 auto;
+//   }
+// }
+@media(min-width: 1140px){
+  .layout{
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
+// #app{
+//   position: fixed;
+//   top: 0
+// }
+span.token.operator{
+  background: none;
+}
