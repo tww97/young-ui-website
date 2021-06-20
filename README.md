@@ -1,5 +1,9 @@
 # young-ui
 
+## 使用教程
+
+点击进入young-ui组件使用教程：<a href='https://tww97.github.io/young-ui/#/'>使用教程</a>
+
 ## 安装
 
 打开终端运行下列命令：

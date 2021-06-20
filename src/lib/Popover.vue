@@ -127,14 +127,11 @@
   }
   .content-wrapper {
     position: absolute;
-    // left: 10px;
     border: 1px solid $border-color;
     box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
     border-radius: $border-radius;
-    // filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
     background: white;
-    padding: .5em 1em;
-    // width: 200px;    
+    padding: .5em 1em;   
     min-width: 150px;
     word-break: break-all;
     z-index: 10;
@@ -165,7 +162,6 @@
     }
     &.position-bottom {
       margin-top: 10px;
-    //   transform: translateY(-100%);
       &::before, &::after {
         left: 10px;
       }
@@ -183,7 +179,6 @@
     &.position-left {
       transform: translateX(-100%);
       margin-left: -10px;
-    //   top: -10px;
       &::before, &::after {
         transform: translateY(-50%);
         top: 50%;
