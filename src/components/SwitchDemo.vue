@@ -5,13 +5,13 @@
             <h3>基本用法</h3>
             <template v-slot:source>
                 <div>                   
-                    <y-switch :active=false></y-switch>
+                    <y-switch :active='false'></y-switch>
                     <y-switch :active='true'></y-switch>
                 </div>
             </template>
             <template v-slot:description>
                 <div>
-                    可以使用<span class='text'>active</span>属性来设置switch开关的初始状态，设置<span class='text'>:active='true'</span>或者<span class='text'>active='true'</span>，switch开关的初始状态为开，设置<span class='text'>:active='true'</span>或者<span class='text'>active='true'</span>或者不设置<span class='text'>active</span>属性，则switch开关的初始状态为关。
+                    可以使用<span class='text'>active</span>属性来设置switch开关的初始状态，设置<span class='text'>:active='true'</span>或者<span class='text'>active='true'</span>，switch开关的初始状态为开，设置<span class='text'>:active='false'</span>或者<span class='text'>active='false'</span>或者不设置<span class='text'>active</span>属性，则switch开关的初始状态为关。
                 </div>
             </template>
             <template v-slot:code>
@@ -81,9 +81,9 @@ export default{
     data(){
         return {
             prism: prism,
-            code1: "<y-switch :active=false></y-switch>\n<y-switch :active='true'></y-switch>",
-            code2: '<y-switch\n  active-color="#13ce66"\n  inactive-color="#ff4949">\n</y-switch>\n<y-switch\n  active=true\n  active-color="#13ce66"\n  inactive-color="#ff4949">\n</y-switch>',
-            code3: '<y-switch disabled></y-switch>\n<y-switch\n  active=true\n  disabled>\n</y-switch>'
+            code1: "<y-switch :active='false'></y-switch>\n<y-switch :active='true'></y-switch>",
+            code2: '<y-switch\n  active-color="#13ce66"\n  inactive-color="#ff4949">\n</y-switch>\n<y-switch\n  active="true"\n  active-color="#13ce66"\n  inactive-color="#ff4949">\n</y-switch>',
+            code3: '<y-switch disabled></y-switch>\n<y-switch\n  active="true"\n  disabled>\n</y-switch>'
         }
     },
 }
